@@ -1,0 +1,27 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy server for AI chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server-groq.js",
+    "dev": "nodemon server-groq.js"
+  },
+  "keywords": [
+    "express",
+    "anthropic",
+    "claude",
+    "chat",
+    "proxy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
